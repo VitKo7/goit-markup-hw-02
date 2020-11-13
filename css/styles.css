@@ -1,28 +1,66 @@
+/* цвет основного текста #212121
+дополн.цвет текста #757575
+цвет акцент #2196F3 
+при наведении #FFFFFF */
+
+/* nav background: #ffffff;
+advant background: #e5e5e5;
+team background: #f5f4fa;
+footer background: #2F303A */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --hero-title: #000000;
+}
+
 body {
   background-color: #ffffff;
-  color: #757575;
+  color: var(--primary-text-color);
+}
+
+.list {
+  list-style: none;
 }
 
 .logo-part1 {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .logo-part2 {
-  color: #000000;
+  color: var(--title-text-color);
 }
 
-/* цвет основного текста #212121 */
+/* Site Nav */
 
-/* дополн.цвет текста #757575 */
+.site-nav .link {
+  color: var(--accent-color);
+}
 
-/* цвет акцент #2196F3  */
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--title-text-color);
+}
 
-/* при наведении #FFFFFF */
+/* Section */
 
-/* nav background: #ffffff;
+.section-title {
+  color: var(--title-text-color);
+}
 
-advant background: #e5e5e5;
+/* Hero */
 
-team background: #f5f4fa;
+.hero-title {
+  color: var(--hero-title);
+}
 
-footer background: #2F303A */
+/* Features */
+
+.features .title {
+  color: var(--title-text-color);
+}
+
+.features .link {
+  color: var(--accent-color);
+}
