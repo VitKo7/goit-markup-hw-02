@@ -1,0 +1,97 @@
+/* Logo */
+
+.logo-Web {
+  color: var(--accent-color);
+}
+
+.logo-Studio {
+  color: var(--hero-title);
+}
+
+.logo-Web,
+.logo-Studio {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+/* Site Nav */
+
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav .studia {
+  color: var(--accent-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.list .mail {
+  color: var(--accent-color);
+}
+
+.list .mail:hover,
+.list .mail:focus,
+.list .tel:hover,
+.list .tel:focus {
+  color: var(--accent-color);
+}
+
+/* Hero */
+
+.hero-title {
+  color: var(--primary-white-color);
+  background-color: var(--hero-footer-background);
+}
+
+.hero > .button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+/* Footer */
+
+.footer {
+  color: var(--primary-white-color);
+  background-color: var(--hero-footer-background);
+}
+
+.footer .logo-Studio {
+  color: var(--primary-white-color);
+}
+
+.footer .mail,
+.footer .tel {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Features */
+/* 
+.features .link {
+  color: var(--accent-color);
+} */
+
+/* Section
+
+.section-title {
+  color: var(--title-text-color);
+} */
+
+/* Button */
+
+/* .button {
+  color: var(--title-text-color);
+  background-color: var(--primary-white-color);
+} */
+
+/* 
+.button.secondary {
+  color: var(--accent-color);
+  background-color: var(--primary-white-color);
+} */

@@ -1,66 +1,7 @@
-/* цвет основного текста #212121
-дополн.цвет текста #757575
-цвет акцент #2196F3 
-при наведении #FFFFFF */
+/*  
+    main-title-font: Roboto 700, 900;
+    
+    main-paragraph-font: Roboto 400, 500;
+*/
 
-/* nav background: #ffffff;
-advant background: #e5e5e5;
-team background: #f5f4fa;
-footer background: #2F303A */
-
-:root {
-  --primary-text-color: #757575;
-  --title-text-color: #212121;
-  --accent-color: #2196f3;
-  --hero-title: #000000;
-}
-
-body {
-  background-color: #ffffff;
-  color: var(--primary-text-color);
-}
-
-.list {
-  list-style: none;
-}
-
-.logo-part1 {
-  color: var(--accent-color);
-}
-
-.logo-part2 {
-  color: var(--title-text-color);
-}
-
-/* Site Nav */
-
-.site-nav .link {
-  color: var(--accent-color);
-}
-
-.site-nav .link:hover,
-.site-nav .link:focus {
-  color: var(--title-text-color);
-}
-
-/* Section */
-
-.section-title {
-  color: var(--title-text-color);
-}
-
-/* Hero */
-
-.hero-title {
-  color: var(--hero-title);
-}
-
-/* Features */
-
-.features .title {
-  color: var(--title-text-color);
-}
-
-.features .link {
-  color: var(--accent-color);
-}
+<link rel="preconnect" href="https://fonts.gstatic.com">

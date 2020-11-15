@@ -1,0 +1,50 @@
+/* цвет основного текста #212121;
+дополн.цвет текста #757575;
+цвет акцент #2196F3;
+при наведении #FFFFFF; */
+
+/* nav background: #ffffff;
+hero background: #2F303A;
+advant background: #e5e5e5;
+services background: #e5e5e5;
+team background: #f5f4fa;
+footer background: #2F303A; */
+
+/*  logo-font: Raleway 700;
+    main-title-font: Roboto 700, 900;
+    main-paragraph-font: Roboto 400, 500;
+*/
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --hero-title: #000000;
+  --primary-white-color: #ffffff;
+  --hero-footer-background: #2f303a;
+}
+
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+  font-style: normal;
+  font-family: Roboto, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--title-text-color);
+}
