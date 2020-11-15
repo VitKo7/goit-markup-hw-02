@@ -43,6 +43,15 @@
   color: var(--accent-color);
 }
 
+.list .link,
+.list .mail,
+.list .tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
 /* Work Samples Filter */
 .radio-button {
   color: var(--title-text-color);
@@ -64,11 +73,17 @@
   color: var(--primary-white-color);
 }
 
-address {
-  font-style: normal;
-}
-
 .footer .mail,
 .footer .tel {
   color: rgba(255, 255, 255, 0.6);
+}
+
+.footer .address,
+.footer .mail,
+.footer .tel {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }

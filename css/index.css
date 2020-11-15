@@ -43,16 +43,81 @@
   color: var(--accent-color);
 }
 
+.list .link,
+.list .mail,
+.list .tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
 /* Hero */
 
 .hero-title {
   color: var(--primary-white-color);
   background-color: var(--hero-footer-background);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .hero > .button {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+/* Features */
+
+.section .title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.features .text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/* SERVICES & TEAM */
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.member-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.member-position {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /* Footer */
@@ -71,27 +136,12 @@
   color: rgba(255, 255, 255, 0.6);
 }
 
-/* Features */
-/* 
-.features .link {
-  color: var(--accent-color);
-} */
-
-/* Section
-
-.section-title {
-  color: var(--title-text-color);
-} */
-
-/* Button */
-
-/* .button {
-  color: var(--title-text-color);
-  background-color: var(--primary-white-color);
-} */
-
-/* 
-.button.secondary {
-  color: var(--accent-color);
-  background-color: var(--primary-white-color);
-} */
+.footer .address,
+.footer .mail,
+.footer .tel {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}

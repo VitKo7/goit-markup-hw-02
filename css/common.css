@@ -27,8 +27,8 @@ footer background: #2F303A; */
 body {
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
-  font-style: normal;
   font-family: Roboto, sans-serif;
+  font-style: normal;
 }
 
 ul {
